@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <script type="text/javascript" src="../internal.js"></script>
+    <link rel="stylesheet" type="text/css" href="attachment.css"/>
+</head>
+<body>
+<div class="wrapper">  
+    <div id="fileTab">  
+        <div id="tabHeads" class="tabhead">  
+            <span tabsrc="file" class="focus"><var id="lang_tab_local"></var></span> 
+            <span tabsrc="fileManager"><var id="lang_tab_remote"></var></span>  
+        </div>  
+        <div id="tabBodys" class="tabbody">  
+            <div id="file" class="panel">  
+                <div class="controller">  
+                    <span id="divStatus">本次共成功上传 0 个文件</span> 
+                    <span id="spanButtonPlaceHolder"></span>  
+                </div>  
+                <div class="fieldset flash" id="fsUploadProgress">  
+                </div>  
+                <span id="startUpload" style="display: none;"></span>  
+            </div>  
+            <div id="fileManager" style="display: none;" class="panel">  
+            	<table style="margin-top: 5px;">
+                    <tr>
+                        <td width="200"><input id="imgSearchTxt" type="text" /></td>
+                        <td width="65">
+                            <select id="imgType">
+                                <!--具体内容值将由国际化组件动态填充-->
+                                <option value="all"></option>
+                                <option value="this"></option>
+                                <option value=".gif.png.jpg.jpeg.bmp"></option>
+                                <option value=".mp3"></option>
+                                <option value=".flv.mp4"></option>
+                                <option value=".doc.docx.ppt.pptx.xls.xlsx.pdf.txt""></option>
+                                <option value=".rar.zip"></option>
+                            </select>
+                        </td>
+                        <td width="80"><input id="imgSearchBtn" type="button" /></td>
+                    </tr>
+                </table>
+                <div id="fileListView" style="display: none;min-height:407px;" class="controller"> 
+					<var id="lang_imgLoading"></var>
+				</div>
+            </div>  
+        </div>  
+    </div>  
+</div>  
+<!--本地上传代码开始-->
+<script type="text/javascript" src="../../third-party/swfupload/swfupload.js"></script>
+<script type="text/javascript" src="../../third-party/swfupload/swfupload.queue.js"></script>
+<script type="text/javascript" src="../../third-party/swfupload/fileprogress.js"></script>
+<script type="text/javascript" src="../../jquery.min.js"></script>
+<script type="text/javascript" src="callbacks.js"></script>
+<script type="text/javascript" src="fileTypeMaps.js"></script>
+<script type="text/javascript" src="attachement.js"></script>
+</body>
+</html>
