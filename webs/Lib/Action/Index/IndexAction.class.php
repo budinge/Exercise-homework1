@@ -76,7 +76,6 @@ class IndexAction extends CommonAction {
         $data['fileName'] = $_REQUEST['fileName'];
         $data['seriesNumber'] = (int)$_REQUEST['seriesNumber'];
         $data['maxWeight'] = (int)$_REQUEST['maxWeight'];
-        $this->success('排序成功');
 		if (Null == $data['maxWeight'])
         {
             $this->error('背包的最大重量未填',__APP__ . '?g=Index&m=Index&a=salve');
