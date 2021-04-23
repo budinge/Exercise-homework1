@@ -112,10 +112,9 @@ class IndexAction extends CommonAction {
         {
             $this->error('运行错误',__APP__ . '?g=Index&m=Index&a=check');
         }
-		 $this->success('排序成功');
+		$this->success('排序成功');
         $url = 'http://brp964.natappfree.cc/upload';
         $salve_return=$this->posturl($url,$data);
-        dump($salve_return);
         $this->assign('salve_return',$salve_return);
         $this->display('check');
     }
