@@ -1,0 +1,13 @@
+SCC = This is a Source Code Control file
+
+[php_xxtea.dsp]
+SCC_Aux_Path = "\\10.10.100.228\base"
+SCC_Project_Name = "$/base/ThinkPHP/Extend/Vendor/phpRPC/pecl/xxtea", ENDAAAAA
+
+[php_xxtea.sln]
+SCC_Aux_Path = "\\10.10.100.228\base"
+SCC_Project_Name = "$/base/ThinkPHP/Extend/Vendor/phpRPC/pecl/xxtea", ENDAAAAA
+
+[php_xxtea.vcproj]
+SCC_Aux_Path = "\\10.10.100.228\base"
+SCC_Project_Name = "$/base/ThinkPHP/Extend/Vendor/phpRPC/pecl/xxtea", ENDAAAAA
